@@ -1,3 +1,5 @@
+![Status of tests](https://github.com/wctang723/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+
 # learn-cicd-starter (Notely)
 
 
