@@ -36,7 +36,6 @@ jobs:
       - name: Formatting
         uses: test -z $(go fmt ./...)
 
-    steps:
       - name: Install staticcheck
         uses: go install honnef.co/go/tools/cmd/staticcheck@latest 
 
