@@ -98,4 +98,5 @@ func main() {
 }
 
 func unused() {
+	wfdjsoe
 }
