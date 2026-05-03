@@ -33,11 +33,11 @@ jobs:
         with:
           go-version: "1.26.0"
 
+      - name: Install staticcheck
+        uses: go install honnef.co/go/tools/cmd/staticcheck@latest 
+
       - name: Formatting
         uses: test -z $(go fmt ./...)
 
-      - name: Install staticcheck
-        uses: go install honnef.co/go/tools/cmd/staticcheck@latest
-
       - name: Static check
-        uses: test -z $(staticcheck ./...)
+        uses: staticcheck ./...
